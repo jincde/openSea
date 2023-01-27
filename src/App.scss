@@ -1,1 +1,76 @@
 /* 본 scss 파일을 수정하여 작업해주세요 */
+body {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+$black: rgb(4, 17, 29);
+$gray: rgb(112, 122, 131);
+$white: rgb(255, 255, 255);
+
+// 반응형 768px > 1200px > 1600px > 2256px
+// 최대 컨테이너 길이 2560px (영상배너는 제외)
+
+// Header.js
+.navbar {
+  background-color: transparent;
+  color: $black;
+  height: 72px;
+  max-width: 2560px;
+  padding: 0 16px;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 1200px) {
+  .navbar {
+    padding: 0 32px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .navbar {
+    padding: 0 64px;
+  }
+}
+
+.navbar-logo {
+  display: flex;
+  padding-right: 32px;
+}
+
+@media (min-width: 600px) {
+  .navbar-logo {
+    padding-right: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar-logo {
+    padding-right: 48px;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.brand-name {
+  margin-left: 6px;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+
+// ~ Header.js

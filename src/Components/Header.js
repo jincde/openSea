@@ -1,7 +1,18 @@
+import logo from '../img/logo.png'
+
 function Header() {
 
   return (
-    <div>헤더</div>
+    <header className="navbar">
+      <div className="navbar-logo">
+        <div className="logo">
+          <img src={logo}></img>
+          <div className='brand-name'>OpenSea</div>
+        </div>
+      </div>
+
+      <div>asd</div>
+    </header>
   )
 }
 
