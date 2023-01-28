@@ -6,11 +6,13 @@ import test from '../img/test1.avif';
 
 // Import Swiper styles
 import 'swiper/css';
+import "swiper/css/navigation";
 
 export default () => {
   return (
     <Swiper
       navigation={true}
+      modules={[Navigation]}
       spaceBetween={20}
       slidesPerView={4}
       onSlideChange={() => console.log('slide change')}
