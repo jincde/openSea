@@ -4,6 +4,7 @@ body {
 }
 
 * {
+  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
@@ -78,7 +79,7 @@ $white: rgb(255, 255, 255);
 .brand-name {
   margin-left: 6px;
   font-size: 1.2rem;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .search-section {
@@ -93,11 +94,12 @@ $white: rgb(255, 255, 255);
 
 .search-form {
   // width: 500px;
+  background-color: $white;
   height: 48px;
   padding: 8px;
   margin-right: 32px;
   border: 1px solid rgba(255, 255, 255, 0.7);
-  border: 1px solid $gray;
+  border: 1px solid transparent;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -105,6 +107,7 @@ $white: rgb(255, 255, 255);
 
 .search-form input {
   border: 1px solid transparent;
+  background-color: $white;
   width: 100%;
 }
 
@@ -119,3 +122,82 @@ $white: rgb(255, 255, 255);
 }
 
 // ~ Header.js
+
+// Banner.js
+.banner {
+  margin-top: -72px;
+  padding-top: 72px;
+  background-image: url('./img/home-gradient-light.png');
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.banner-container {
+  margin: 0 auto;
+  padding: 0 16px;
+  width: 100%;
+  max-width: 2560px;
+}
+
+.banner-title {
+  margin: 40px auto 56px;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-title h1 {
+  font-weight: 800;
+  font-size: 32px;
+}
+
+.banner-contents {
+  display: grid;
+  grid-gap: 12px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (min-width: 1200px) {
+  .banner-container {
+    padding: 0 32px;
+  }
+
+  .banner-title h1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .banner-container {
+    padding: 0 64px;
+  }
+
+  .banner-title h1 {
+    font-size: 48px;
+  }
+}
+
+// swiper breakpoints  size < 768 : 2 , size < 1024 : 3
+.test-card {
+  width: initial;
+  height: initial;
+  border-radius: 16px;
+}
+
+.test-1 {
+  display: flex;
+}
+
+.test-2 {
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  border-radius: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.test-card img {
+  max-width: 100%;
+  min-width: 100%;
+  border-radius: 16px;
+}

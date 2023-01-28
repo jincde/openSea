@@ -15,7 +15,7 @@ function Header() {
       <div className='search-section'>
         <div className='search-view-toggle'></div>
         <div className='search-form'>
-          <span class="material-symbols-outlined md-inactive">
+          <span className="material-symbols-outlined md-inactive">
             search
           </span>
           <input placeholder='Search items, collections, and accounts' />
