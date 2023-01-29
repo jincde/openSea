@@ -29,8 +29,208 @@ function Rank() {
       </div>
 
       <div className="rank-grid">
-        <div>asd</div>
-        <div>asd</div>
+        <article>
+          <div className="table-head">
+            <p>COLLECTION</p>
+            <p>FLOOR PRICE</p>
+            <p>VOLUME</p>
+          </div>
+
+          <div className="table-contents">
+            <div className="collection">
+              <div className="collection-number">1</div>
+              <div className="collection-img">
+                <img></img>
+              </div>
+              <p className="collection-text collection-title">content name</p>
+            </div>
+
+            <div className="floor-price">
+              <p className="collection-text">0.20 ETH</p>
+            </div>
+
+            <div className="volume">
+              <p className="collection-text">493 ETH</p>
+            </div>
+          </div>
+
+          <div className="table-contents">
+            <div className="collection">
+              <div className="collection-number">1</div>
+              <div className="collection-img">
+              </div>
+              <p className="collection-text collection-title">content name content name content name</p>
+            </div>
+
+            <div className="floor-price">
+              <p className="collection-text">0.20 ETH</p>
+            </div>
+
+            <div className="volume">
+              <p className="collection-text">493 ETH</p>
+            </div>
+          </div>
+
+          <div className="table-contents">
+            <div className="collection">
+              <div className="collection-number">1</div>
+              <div className="collection-img">
+                <img></img>
+              </div>
+              <p className="collection-text collection-title">content name</p>
+            </div>
+
+            <div className="floor-price">
+              <p className="collection-text">0.20 ETH</p>
+            </div>
+
+            <div className="volume">
+              <p className="collection-text">493 ETH</p>
+            </div>
+          </div>
+
+          <div className="table-contents">
+            <div className="collection">
+              <div className="collection-number">1</div>
+              <div className="collection-img">
+                <img></img>
+              </div>
+              <p className="collection-text collection-title">content name</p>
+            </div>
+
+            <div className="floor-price">
+              <p className="collection-text">0.20 ETH</p>
+            </div>
+
+            <div className="volume">
+              <p className="collection-text">493 ETH</p>
+            </div>
+          </div>
+
+          <div className="table-contents">
+            <div className="collection">
+              <div className="collection-number">1</div>
+              <div className="collection-img">
+                <img></img>
+              </div>
+              <p className="collection-text collection-title">content name</p>
+            </div>
+
+            <div className="floor-price">
+              <p className="collection-text">0.20 ETH</p>
+            </div>
+
+            <div className="volume">
+              <p className="collection-text">493 ETH</p>
+            </div>
+          </div>
+
+          {/* <div>
+
+          </div> */}
+        </article>
+
+        <article>
+          <div className="table-head">
+            <p>COLLECTION</p>
+            <p>FLOOR PRICE</p>
+            <p>VOLUME</p>
+          </div>
+
+          <div className="table-contents">
+            <div className="collection">
+              <div className="collection-number">1</div>
+              <div className="collection-img">
+                <img></img>
+              </div>
+              <p className="collection-text collection-title">content name</p>
+            </div>
+
+            <div className="floor-price">
+              <p className="collection-text">0.20 ETH</p>
+            </div>
+
+            <div className="volume">
+              <p className="collection-text">493 ETH</p>
+            </div>
+          </div>
+
+          <div className="table-contents">
+            <div className="collection">
+              <div className="collection-number">1</div>
+              <div className="collection-img">
+                <img></img>
+              </div>
+              <p className="collection-text collection-title">content name</p>
+            </div>
+
+            <div className="floor-price">
+              <p className="collection-text">0.20 ETH</p>
+            </div>
+
+            <div className="volume">
+              <p className="collection-text">493 ETH</p>
+            </div>
+          </div>
+
+          <div className="table-contents">
+            <div className="collection">
+              <div className="collection-number">1</div>
+              <div className="collection-img">
+                <img></img>
+              </div>
+              <p className="collection-text collection-title">content name</p>
+            </div>
+
+            <div className="floor-price">
+              <p className="collection-text">0.20 ETH</p>
+            </div>
+
+            <div className="volume">
+              <p className="collection-text">493 ETH</p>
+            </div>
+          </div>
+
+          <div className="table-contents">
+            <div className="collection">
+              <div className="collection-number">1</div>
+              <div className="collection-img">
+                <img></img>
+              </div>
+              <p className="collection-text collection-title">content name</p>
+            </div>
+
+            <div className="floor-price">
+              <p className="collection-text">0.20 ETH</p>
+            </div>
+
+            <div className="volume">
+              <p className="collection-text">493 ETH</p>
+            </div>
+          </div>
+
+          <div className="table-contents">
+            <div className="collection">
+              <div className="collection-number">1</div>
+              <div className="collection-img">
+                <img></img>
+              </div>
+              <p className="collection-text collection-title">content name</p>
+            </div>
+
+            <div className="floor-price">
+              <p className="collection-text">0.20 ETH</p>
+            </div>
+
+            <div className="volume">
+              <p className="collection-text">493 ETH</p>
+            </div>
+          </div>
+
+          {/* <div>
+
+          </div> */}
+        </article>
       </div>
     </section>
   )

@@ -261,7 +261,7 @@ $white: rgb(255, 255, 255);
   padding-top: 30px;
 }
 
-.rank-grid div:nth-child(2) {
+.rank-grid article:nth-child(2) {
   display: none;
 }
 
@@ -284,6 +284,7 @@ $white: rgb(255, 255, 255);
   border: 1.5px solid rgb(230 232 235);
   border-radius: 16px;
   height: 48px;
+  margin-right: -1rem;
   // padding: .75rem;
 }
 
@@ -298,21 +299,140 @@ $white: rgb(255, 255, 255);
   border-radius: 16px 0 0 16px;
 }
 
-//11 24px
+.table-head {
+  display: flex;
+  // gap: 10rem;
+  padding: 4px 8px;
+}
+
+.table-head p:nth-child(1) {
+  width: 80%
+}
+
+.table-head p:nth-child(2) {
+  display: none;
+  width: 20%;
+}
+
+.table-head p:nth-child(3) {
+  display: flex;
+  justify-content: end;
+  width: 20%;
+}
+
+.table-head p {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(112, 122, 131);
+}
+
+.table-contents {
+  display: flex;
+  padding: 12px 8px;
+}
+
+.collection {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+.floor-price {
+  display: none;
+}
+
+.volume {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 20%;
+}
+
+.collection-number {
+  width: 23px;
+  margin-right: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(112, 122, 131);
+}
+
+.collection-img {
+  width: 53px;
+  height: 53px;
+  border-radius: 14px;
+  background-color: beige;
+  flex-shrink: 0;
+}
+
+
+.collection-text {
+  font-weight: 600;
+  color: rgb(4, 17, 29);
+}
+
+.collection-title {
+  padding-left: 24px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
 
 @media (min-width: 1024px) {
   .rank-grid {
-    display: grid;
-    grid-template-columns: 1fr 0 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
   }
 
-  .rank-grid div:nth-child(2) {
+  .rank-grid article:nth-child(2) {
     display: block;
   }
 
   .rank-menu-center {
     display: flex;
   }
+
+  .rank-menu-end {
+    margin: 0;
+  }
+
+  // .table-head {
+  //   grid-template-columns: 3fr auto auto;
+  //   gap: 5rem;
+  // }
+
+  .table-head p:nth-child(1) {
+    width: 60%
+  }
+
+  .table-head p:nth-child(2) {
+    display: flex;
+    justify-content: end;
+  }
+
+  .collection {
+    display: flex;
+    align-items: center;
+    width: 60%;
+  }
+
+  .floor-price {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 20%;
+  }
+
+  .collection-img {
+    width: 73px;
+    height: 73px;
+  }
+
+  // .table-contents {
+  //   display: grid;
+  //   padding: 12px 8px;
+  //   grid-template-columns: 3fr auto auto;
+  // }
 }
 
 @media (min-width:1200px) {
