@@ -10,6 +10,22 @@ function Rank() {
           <p className="menu-content active">Trending</p>
           <p className="menu-content">Top</p>
         </div>
+
+        <div className="rank-menu-center">
+          <button>All chains</button>
+          <button>i</button>
+          <button>i</button>
+          <button>i</button>
+          <button>i</button>
+          <button>i</button>
+          <button>i</button>
+          <button>i</button>
+          <button>i</button>
+        </div>
+
+        <div className="rank-menu-end">
+          <button>View all</button>
+        </div>
       </div>
 
       <div className="rank-grid">

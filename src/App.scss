@@ -4,6 +4,8 @@ body {
 }
 
 * {
+  background-color: transparent;
+  border: none;
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
   text-decoration: none;
@@ -228,7 +230,11 @@ $white: rgb(255, 255, 255);
 }
 
 .rank-menu {
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr auto auto;
+  gap: 1rem;
+  border-bottom: 1px solid rgb(242 243 245);
+  line-height: 3.5rem;
 }
 
 .rank-menu-left {
@@ -240,32 +246,72 @@ $white: rgb(255, 255, 255);
 }
 
 .rank-menu-left .menu-content {
-  line-height: 4rem;
+  // line-height: 4rem;
 }
 
 .active {
   color: rgb(53, 56, 64);
   // line-height: 1rem;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
 }
 
 .rank-grid {
   display: grid;
   grid-template-columns: 1fr 0;
+  padding-top: 30px;
 }
 
 .rank-grid div:nth-child(2) {
   display: none;
 }
 
+.rank-menu-center {
+  display: none;
+  border: 1.5px solid rgb(230 232 235);
+  border-radius: 16px;
+  height: 48px;
+  // padding: .75rem;
+}
+
+.rank-menu-center button {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 8px 12px;
+}
+
+.rank-menu-end {
+  display: flex;
+  border: 1.5px solid rgb(230 232 235);
+  border-radius: 16px;
+  height: 48px;
+  // padding: .75rem;
+}
+
+.rank-menu-end button {
+  padding: 11px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.rank-menu-center button:nth-child(1) {
+  background-color: rgb(242 243 245);
+  border-radius: 16px 0 0 16px;
+}
+
+//11 24px
+
 @media (min-width: 1024px) {
   .rank-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 0 1fr;
   }
 
   .rank-grid div:nth-child(2) {
     display: block;
+  }
+
+  .rank-menu-center {
+    display: flex;
   }
 }
 
