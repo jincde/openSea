@@ -96,7 +96,7 @@ $white: rgb(255, 255, 255);
 
 .search-form {
   // width: 500px;
-  background-color: $white;
+  background-color: rgba(255, 255, 255, 0.5);
   height: 48px;
   padding: 8px;
   margin-right: 32px;
@@ -105,12 +105,18 @@ $white: rgb(255, 255, 255);
   border-radius: 10px;
   display: flex;
   align-items: center;
+  transition: 0.3s;
 }
 
 .search-form input {
   border: 1px solid transparent;
-  background-color: $white;
+  background-color: transparent;
   width: 100%;
+}
+
+.search-form:hover {
+  background-color: white;
+  transition: 0.3s;
 }
 
 .navbar ul {
