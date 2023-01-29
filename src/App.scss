@@ -130,7 +130,6 @@ $white: rgb(255, 255, 255);
   background-image: url('./img/home-gradient-light.png');
   background-size: cover;
   width: 100%;
-  height: 500px;
 }
 
 .banner-container {
@@ -217,4 +216,77 @@ $white: rgb(255, 255, 255);
   object-fit: cover;
   inset: 0px;
   z-index: 0;
+}
+
+
+// Rank.js
+.rank-container {
+  margin: 0 auto;
+  padding: 32px 16px 0;
+  width: 100%;
+  max-width: 2560px;
+}
+
+.rank-menu {
+  display: flex;
+}
+
+.rank-menu-left {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(112, 122, 131);
+}
+
+.rank-menu-left .menu-content {
+  line-height: 4rem;
+}
+
+.active {
+  color: rgb(53, 56, 64);
+  // line-height: 1rem;
+  border-bottom: 1px solid black;
+}
+
+.rank-grid {
+  display: grid;
+  grid-template-columns: 1fr 0;
+}
+
+.rank-grid div:nth-child(2) {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .rank-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .rank-grid div:nth-child(2) {
+    display: block;
+  }
+}
+
+@media (min-width:1200px) {
+  .rank-container {
+    padding: 40px 32px 0;
+  }
+
+  .rank-menu-left {
+    gap: 30px;
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .rank-container {
+    padding: 50px 64px 0;
+  }
+
+  .rank-menu-left {
+    gap: 30px;
+    font-size: 32px;
+  }
 }
