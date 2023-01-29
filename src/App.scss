@@ -331,6 +331,12 @@ $white: rgb(255, 255, 255);
   padding: 12px 8px;
 }
 
+.table-contents:hover {
+  box-shadow: none;
+  background-color: rgba(229, 232, 235, 0.2);
+  cursor: pointer;
+}
+
 .collection {
   display: flex;
   align-items: center;
