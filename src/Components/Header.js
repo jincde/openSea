@@ -1,6 +1,22 @@
+import { useEffect } from 'react'
 import logo from '../img/logo.png'
 
 function Header() {
+
+  useEffect(() => {
+    // 스크롤 시 헤더 색상 변경
+    const header = document.querySelector('.navbar');
+
+    window.onscroll = function () {
+      let top = window.scrollY;
+      console.log(top);
+      if (top >= 72) {
+        header.classList.add('scroll')
+      } else {
+        header.classList.remove('scroll');
+      }
+    }
+  })
 
   return (
     <header className="navbar">
@@ -35,12 +51,25 @@ function Header() {
       {/* ul list 2 */}
       <div className='navbar-icons'>
         <ul>
-          <li>O</li>
-          <li>O</li>
-          <li>O</li>
+          <li>
+            <span class="material-symbols-outlined">
+              account_box
+            </span>
+          </li>
+          <li>
+            <span class="material-symbols-outlined">
+              account_balance_wallet
+            </span>
+          </li>
+          <li>
+            <span class="material-symbols-outlined">
+              shopping_cart
+            </span>
+          </li>
         </ul>
       </div>
     </header >
+
   )
 }
 
