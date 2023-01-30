@@ -3,7 +3,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from "swiper";
 import { NotableCard, HotTodayCard, OriginalArtCard, NftListCard, CategoryCard } from "./Card";
 
-import test from '../img/collection.avif';
+import banner1 from '../img/collection.avif';
+import banner2 from '../img/banner2.avif';
+import banner3 from '../img/test1.avif';
+import banner4 from '../img/banner4.avif';
+import banner5 from '../img/banner5.avif';
+import banner6 from '../img/banner6.avif';
+import banner7 from '../img/banner7.avif';
 import test2 from '../img/notable.webp';
 
 // Import Swiper styles
@@ -47,7 +53,11 @@ function BannerSwiper() {
       <SwiperSlide>
         <div className="card">
           <div className="card-top">
-            <img src={test} />
+            <img src={banner5} />
+            <div className="banner-collection">
+              <div className="banner-collection-title">FashionDuck</div>
+              <div className="collection-price">Floor: 0.02 ETH</div>
+            </div>
           </div>
         </div>
       </SwiperSlide>
@@ -55,7 +65,11 @@ function BannerSwiper() {
       <SwiperSlide>
         <div className="card">
           <div className="card-top">
-            <img src={test} />
+            <img src={banner2} />
+            <div className="banner-collection">
+              <div className="banner-collection-title">Nyan Balloon</div>
+              <div className="collection-price">Floor: 0.01 ETH</div>
+            </div>
           </div>
         </div>
       </SwiperSlide>
@@ -63,7 +77,11 @@ function BannerSwiper() {
       <SwiperSlide>
         <div className="card">
           <div className="card-top">
-            <img src={test} />
+            <img src={banner3} />
+            <div className="banner-collection">
+              <div className="banner-collection-title">NecroParadise</div>
+              <div className="collection-price">Floor: 0.05 ETH</div>
+            </div>
           </div>
         </div>
       </SwiperSlide>
@@ -71,7 +89,11 @@ function BannerSwiper() {
       <SwiperSlide>
         <div className="card">
           <div className="card-top">
-            <img src={test} />
+            <img src={banner4} />
+            <div className="banner-collection">
+              <div className="banner-collection-title">Regulars</div>
+              <div className="collection-price">Floor: 0.12 ETH</div>
+            </div>
           </div>
         </div>
       </SwiperSlide>
@@ -79,7 +101,11 @@ function BannerSwiper() {
       <SwiperSlide>
         <div className="card">
           <div className="card-top">
-            <img src={test} />
+            <img src={banner7} />
+            <div className="banner-collection">
+              <div className="banner-collection-title">SAM PIERSON'S BRAIN DRAIN</div>
+              <div className="collection-price">Floor: 0.05 ETH</div>
+            </div>
           </div>
         </div>
       </SwiperSlide>
@@ -87,7 +113,11 @@ function BannerSwiper() {
       <SwiperSlide>
         <div className="card">
           <div className="card-top">
-            <img src={test} />
+            <img src={banner6} />
+            <div className="banner-collection">
+              <div className="banner-collection-title">archive editions</div>
+              <div className="collection-price">Floor: 0.14 ETH</div>
+            </div>
           </div>
         </div>
       </SwiperSlide>
