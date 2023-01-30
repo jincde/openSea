@@ -114,7 +114,7 @@ function NotableSwiper() {
           spaceBetween: 30
         },
         1200: {
-          slidesPerView: 4,
+          slidesPerView: 5,
           spaceBetween: 40
         },
         1600: {
@@ -190,7 +190,7 @@ function HotTodaySwiper() {
           spaceBetween: 30
         },
         1200: {
-          slidesPerView: 4,
+          slidesPerView: 5,
           spaceBetween: 40
         },
         1600: {
@@ -260,7 +260,7 @@ function OriginalArtSwiper() {
           spaceBetween: 30
         },
         1200: {
-          slidesPerView: 4,
+          slidesPerView: 5,
           spaceBetween: 40
         },
         1600: {
@@ -326,7 +326,7 @@ function NftListSwiper() {
           spaceBetween: 30
         },
         1200: {
-          slidesPerView: 4,
+          slidesPerView: 5,
           spaceBetween: 40
         },
         1600: {
@@ -392,7 +392,7 @@ function CategorySwiper() {
           spaceBetween: 30
         },
         1200: {
-          slidesPerView: 4,
+          slidesPerView: 5,
           spaceBetween: 40
         },
         1600: {
