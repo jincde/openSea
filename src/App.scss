@@ -461,6 +461,7 @@ ul li:hover ul li {
 
 .rank-menu-left .menu-content {
   // line-height: 4rem;
+  cursor: pointer;
 }
 
 .active {
@@ -771,6 +772,7 @@ footer {
 
 .footer-container {
   width: 85%;
+  max-width: 2495px;
 }
 
 @media (min-width: 800px) {
