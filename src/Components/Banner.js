@@ -1,5 +1,5 @@
 import React from "react";
-import Slider from "./Slider";
+import { BannerSwiper } from "./Slider.js";
 
 function Banner() {
 
@@ -11,7 +11,7 @@ function Banner() {
         </div>
         <article className="banner-contents">
         </article>
-        <Slider></Slider>
+        <BannerSwiper></BannerSwiper>
       </div>
     </div>
   )

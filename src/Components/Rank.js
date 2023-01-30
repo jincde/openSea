@@ -3,7 +3,7 @@ import React, { Component } from "react";
 function Rank() {
 
   return (
-    <section className="rank-container">
+    <section className="container">
 
       <div className="rank-menu">
         <div className="rank-menu-left">
