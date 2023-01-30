@@ -253,15 +253,18 @@ $white: rgb(255, 255, 255);
   max-height: 100%;
   position: relative;
   border-radius: 16px;
+  cursor: pointer;
 }
 
 .test-2::before {
   content: '';
+  clear: both;
   background: linear-gradient(rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
   position: absolute;
   width: 100%;
   height: 100%;
   border-radius: 0 0 16px 16px;
+  z-index: 1;
 }
 
 .test-2 img {
@@ -281,6 +284,13 @@ $white: rgb(255, 255, 255);
 .test-card:hover .test-2 img {
   transform: scale(1.08);
   transition: 0.4s;
+  // z-index: 1;
+}
+
+.test-card:hover .test-2::before {
+  transform: scale(1.08);
+  transition: 0.2s;
+  z-index: 1;
 }
 
 
