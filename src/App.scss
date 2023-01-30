@@ -30,6 +30,7 @@ $white: rgb(255, 255, 255);
   background-color: transparent;
   color: $black;
   height: 72px;
+  width: 100%;
   max-width: 2560px;
   margin: 0 auto;
   padding: 0 16px;
@@ -170,6 +171,47 @@ $white: rgb(255, 255, 255);
   display: grid;
   grid-gap: 12px;
   grid-template-columns: repeat(4, 1fr);
+}
+
+.swiper-button-next {
+  background: url(./img/right.png) no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.swiper-button-prev {
+  background: url(./img/left.png) no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  padding: 22px;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  background-color: rgba(240, 240, 240, 0.7);
+  backdrop-filter: blur(3px);
+  background-size: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 2;
+  border-radius: 50%;
+  -webkit-transition: 0.4s;
+  position: absolute;
+  // transform: translateY(-50%);
+  right: -6px;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: rgba(240, 240, 240, 1);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
 }
 
 @media (min-width: 1200px) {

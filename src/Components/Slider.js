@@ -7,6 +7,7 @@ import test from '../img/test1.avif';
 // Import Swiper styles
 import 'swiper/css';
 import "swiper/css/navigation";
+import styles from '../App.scss';
 
 export default () => {
   return (
@@ -31,8 +32,8 @@ export default () => {
           slidesPerView: 6,
           spaceBetween: 40
         }
-      }
-      }
+      }}
+      loop={true}
       modules={[Navigation]}
       spaceBetween={20}
       slidesPerView={4}
