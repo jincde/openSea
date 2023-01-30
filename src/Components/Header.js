@@ -54,7 +54,7 @@ function Header() {
                 <button>Photography</button>
                 <button>Sports</button>
                 <button>Trading Cards</button>
-                <button>Utibuttonty</button>
+                <button>Utility</button>
                 <button>Virtual Worlds</button>
               </div>
             </div>
