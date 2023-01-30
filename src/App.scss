@@ -239,6 +239,7 @@ $white: rgb(255, 255, 255);
   width: initial;
   height: initial;
   border-radius: 16px;
+  overflow: hidden;
 }
 
 .test-1 {
@@ -252,7 +253,6 @@ $white: rgb(255, 255, 255);
   max-height: 100%;
   position: relative;
   border-radius: 16px;
-
 }
 
 .test-2::before {
@@ -264,7 +264,7 @@ $white: rgb(255, 255, 255);
   border-radius: 0 0 16px 16px;
 }
 
-.test-card img {
+.test-2 img {
   display: block;
   max-width: 100%;
   min-width: 100%;
@@ -274,6 +274,13 @@ $white: rgb(255, 255, 255);
   object-fit: cover;
   inset: 0px;
   z-index: 0;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.test-card:hover .test-2 img {
+  transform: scale(1.08);
+  transition: 0.4s;
 }
 
 
