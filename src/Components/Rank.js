@@ -1,6 +1,20 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 
 function Rank() {
+  useEffect(() => {
+    const allMenu = document.querySelectorAll('.menu-content');
+
+    for (let i = 0; i < allMenu.length; i++) {
+      allMenu[i].addEventListener('click', () => {
+
+        for (let i = 0; i < allMenu.length; i++) {
+          allMenu[i].classList.remove('active');
+        }
+
+        allMenu[i].classList.add('active');
+      })
+    }
+  })
 
   return (
     <section className="container">
