@@ -94,10 +94,24 @@ function Header() {
         {/* ul list 2 */}
         <div className='navbar-icons'>
           <ul>
-            <li>
-              <span class="material-symbols-outlined">
-                account_box
-              </span>
+            <li style={{ padding: '0' }}>
+              <div className='dropdown'>
+                <li className='main-menu'>
+                  <span class="material-symbols-outlined">
+                    account_box
+                  </span>
+                </li>
+                <div className='dropdown-menu'>
+                  <button>Profile</button>
+                  <button>Favorites</button>
+                  <button>Watchlist</button>
+                  <button>My collection</button>
+                  <button>Create</button>
+                  <button>Settings</button>
+                  <button>Language</button>
+                  <button>Night mode</button>
+                </div>
+              </div>
             </li>
             <li>
               <span class="material-symbols-outlined">
@@ -111,8 +125,16 @@ function Header() {
             </li>
           </ul>
         </div>
+
+        {/* Hamburger */}
+        <div className='hamburger'>
+          <span class="material-symbols-outlined">
+            menu
+          </span>
+        </div>
+
       </header >
-    </nav>
+    </nav >
   )
 }
 
