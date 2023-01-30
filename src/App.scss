@@ -26,6 +26,12 @@ $white: rgb(255, 255, 255);
 // 최대 컨테이너 길이 2560px (영상배너는 제외)
 
 // Header.js
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 6;
+}
+
 .navbar {
   background-color: transparent;
   color: $black;
@@ -89,7 +95,7 @@ $white: rgb(255, 255, 255);
 .brand-name {
   margin-left: 6px;
   font-size: 1.2rem;
-  font-weight: 800;
+  font-weight: 650;
 }
 
 .search-section {
