@@ -56,7 +56,7 @@ function Rank() {
 
           <div className="table-contents">
             <div className="collection">
-              <div className="collection-number">1</div>
+              <div className="collection-number">2</div>
               <div className="collection-img">
               </div>
               <p className="collection-text collection-title">content name content name content name</p>
@@ -73,7 +73,7 @@ function Rank() {
 
           <div className="table-contents">
             <div className="collection">
-              <div className="collection-number">1</div>
+              <div className="collection-number">3</div>
               <div className="collection-img">
                 <img></img>
               </div>
@@ -91,7 +91,7 @@ function Rank() {
 
           <div className="table-contents">
             <div className="collection">
-              <div className="collection-number">1</div>
+              <div className="collection-number">4</div>
               <div className="collection-img">
                 <img></img>
               </div>
@@ -109,7 +109,7 @@ function Rank() {
 
           <div className="table-contents">
             <div className="collection">
-              <div className="collection-number">1</div>
+              <div className="collection-number">5</div>
               <div className="collection-img">
                 <img></img>
               </div>
@@ -139,7 +139,7 @@ function Rank() {
 
           <div className="table-contents">
             <div className="collection">
-              <div className="collection-number">1</div>
+              <div className="collection-number">6</div>
               <div className="collection-img">
                 <img></img>
               </div>
@@ -157,7 +157,7 @@ function Rank() {
 
           <div className="table-contents">
             <div className="collection">
-              <div className="collection-number">1</div>
+              <div className="collection-number">7</div>
               <div className="collection-img">
                 <img></img>
               </div>
@@ -175,7 +175,7 @@ function Rank() {
 
           <div className="table-contents">
             <div className="collection">
-              <div className="collection-number">1</div>
+              <div className="collection-number">8</div>
               <div className="collection-img">
                 <img></img>
               </div>
@@ -193,7 +193,7 @@ function Rank() {
 
           <div className="table-contents">
             <div className="collection">
-              <div className="collection-number">1</div>
+              <div className="collection-number">9</div>
               <div className="collection-img">
                 <img></img>
               </div>
@@ -211,7 +211,7 @@ function Rank() {
 
           <div className="table-contents">
             <div className="collection">
-              <div className="collection-number">1</div>
+              <div className="collection-number">10</div>
               <div className="collection-img">
                 <img></img>
               </div>

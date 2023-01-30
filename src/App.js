@@ -7,6 +7,7 @@ import HotToday from './Components/HotToday'
 import OriginalArt from './Components/OriginalArt'
 import NftList from './Components/NftList'
 import Category from './Components/Category'
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <OriginalArt />
       <NftList />
       <Category />
+      <Footer />
     </div>
   )
 }

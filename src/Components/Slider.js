@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from "swiper";
 import { NotableCard, HotTodayCard, OriginalArtCard, NftListCard, CategoryCard } from "./Card";
 
-import test from '../img/test1.avif';
+import test from '../img/collection.avif';
 import test2 from '../img/notable.webp';
 
 // Import Swiper styles

@@ -756,3 +756,101 @@ ul li:hover ul li {
   font-size: 12px;
   color: rgb(112, 122, 131);
 }
+
+// Footer.js
+footer {
+  background-color: rgb(24, 104, 183);
+  color: white;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.footer-container {
+  width: 85%;
+}
+
+@media (min-width: 800px) {
+  .footer-container {
+    width: 82.5%;
+  }
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(81 136 196);
+}
+
+.footer-row-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .footer-row-content {
+    width: 50%;
+    padding-top: 40px;
+    text-align: left;
+  }
+
+  .footer-row-content:first-of-type {
+    padding-right: 64px;
+  }
+
+  .footer-row-content:last-of-type {
+    padding-left: 64px;
+  }
+}
+
+.content-name {
+  margin: 8px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer-form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.footer-input {
+  display: flex;
+  background-color: white;
+  color: rgb(53, 56, 64);
+  width: 100%;
+  margin-top: 1rem;
+  padding: .75rem;
+  border-radius: 16px;
+  margin-right: 8px;
+  min-width: 50px;
+}
+
+.footer-input input {
+  width: 100%;
+  background-color: transparent;
+}
+
+.footer-form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 24px;
+  background-color: rgb(32, 129, 226);
+  border-radius: 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  width: 162px;
+  height: 44px;
+  margin: 1rem 8px 0;
+}
