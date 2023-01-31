@@ -777,6 +777,20 @@ ul li:hover ul li {
   color: rgb(112, 122, 131);
 }
 
+@media (max-width: 400px) {
+  .table-row-title {
+    font-size: 10px;
+  }
+
+  .table-row-content {
+    font-size: 12px;
+  }
+
+  .collection-name {
+    font-size: 14px;
+  }
+}
+
 // Footer.js
 footer {
   background-color: rgb(24, 104, 183);
@@ -955,6 +969,16 @@ footer {
 .banner-collection-title {
   font-size: 1rem;
   font-weight: 600;
+}
+
+@media (max-width: 400px) {
+  .banner-collection-title {
+    font-size: 14px;
+  }
+
+  .collection-price {
+    font-size: 12px;
+  }
 }
 
 // color palette
