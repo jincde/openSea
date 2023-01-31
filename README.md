@@ -12,7 +12,11 @@
 
 ## 프로젝트 소개
 
-[배포](https://open-sea-xi.vercel.app/)
+[https://open-sea-xi.vercel.app/](https://open-sea-xi.vercel.app/)
+
+> vercel 배포
+
+<br>
 
 ### 메인 페이지
 
