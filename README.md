@@ -62,3 +62,20 @@
 
 > 300px > 600px > 768px > 1024px > 2256px
 
+<br>
+
+### 콘텐츠 카드 hover 1
+
+![collection-hover](README.assets/collection-hover.gif)
+
+<br>
+
+### 콘텐츠 카드 hover 2
+
+![content-card-hover](README.assets/content-card-hover.gif)
+
+<br>
+
+### 반응형 푸터
+
+![responsive-footer](README.assets/responsive-footer.gif)
