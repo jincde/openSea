@@ -470,14 +470,29 @@ ul li:hover ul li {
   border-bottom: 2px solid black;
 }
 
-.rank-grid {
+.tab-content {
   display: grid;
   grid-template-columns: 1fr 0;
   padding-top: 30px;
 }
 
-.rank-grid article:nth-child(2) {
+@media (min-width: 1024px) {
+  .tab-content {
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+  }
+}
+
+.tab-content article:nth-child(2) {
   display: none;
+}
+
+.tab-content {
+  display: none;
+}
+
+.show {
+  display: grid;
 }
 
 .rank-menu-center {
@@ -584,7 +599,6 @@ ul li:hover ul li {
   background-color: beige;
   flex-shrink: 0;
 }
-
 
 .collection-text {
   font-weight: 600;
@@ -936,4 +950,41 @@ footer {
 .banner-collection-title {
   font-size: 1rem;
   font-weight: 600;
+}
+
+// color palette
+.blue {
+  background-color: rgb(24, 104, 183);
+}
+
+.light-blue {
+  background-color: rgb(32, 129, 226);
+}
+
+.yellow {
+  background-color: #ecd84b;
+}
+
+.light-yellow {
+  background-color: bisque;
+}
+
+.black {
+  background-color: rgb(53, 56, 64);
+}
+
+.orange {
+  background-color: orangered;
+}
+
+.pink {
+  background-color: #ec9bb6;
+}
+
+.purple {
+  background-color: #6465a5;
+}
+
+.light-gray {
+  background-color: #bbb7ae;
 }
