@@ -1,4 +1,14 @@
 import React, { Component, useEffect } from "react";
+// NFT logo
+// import arbitrum from '../img/svg/arbitrum.svg'
+import { ReactComponent as Arbitrum } from "../img/svg/arbitrum.svg";
+import { ReactComponent as Avalanche } from "../img/svg/avalanche.svg";
+import { ReactComponent as Bnb } from "../img/svg/bnb.svg";
+import { ReactComponent as Ether } from "../img/svg/ether.svg";
+import { ReactComponent as Klaytn } from "../img/svg/klaytn.svg";
+import { ReactComponent as Optimism } from "../img/svg/optimism.svg";
+import { ReactComponent as Polygon } from "../img/svg/polygon.svg";
+import { ReactComponent as Solana } from "../img/svg/solana.svg";
 
 function Rank() {
   useEffect(() => {
@@ -30,14 +40,14 @@ function Rank() {
 
         <div className="rank-menu-center">
           <button>All chains</button>
-          <button>i</button>
-          <button>i</button>
-          <button>i</button>
-          <button>i</button>
-          <button>i</button>
-          <button>i</button>
-          <button>i</button>
-          <button>i</button>
+          <button className="NFT-logo"><Arbitrum width={20} height={20} /></button>
+          <button className="NFT-logo"><Avalanche width={20} height={20} /></button>
+          <button className="NFT-logo"><Bnb width={20} height={20} /></button>
+          <button className="NFT-logo"><Ether width={20} height={20} /></button>
+          <button className="NFT-logo"><Klaytn width={20} height={20} /></button>
+          <button className="NFT-logo"><Optimism width={20} height={20} /></button>
+          <button className="NFT-logo"><Polygon width={20} height={20} /></button>
+          <button className="NFT-logo"><Solana width={20} height={20} /></button>
         </div>
 
         <div className="rank-menu-end">

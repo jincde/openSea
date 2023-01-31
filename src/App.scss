@@ -988,3 +988,19 @@ footer {
 .light-gray {
   background-color: #bbb7ae;
 }
+
+.NFT-logo {
+  fill: gray;
+}
+
+.rank-menu-center button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.rank-menu-center button:hover {
+  box-shadow: rgb(0 0 0 / 10%) 0px 2px 10px;
+  z-index: 1;
+  transition: all 0.2s ease 0s;
+}
