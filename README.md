@@ -98,6 +98,16 @@
 
 <br>
 
+### 모바일
+
+![mobile1](README.assets/mobile1.PNG)
+
+![mobile2](README.assets/mobile2.PNG)
+
+![mobile3](README.assets/mobile3.PNG)
+
+<br>
+
 ### 아쉬운 점
 
 - 통일된 화폐로고 svg 파일이 없어, 사이즈 차이가 발생
