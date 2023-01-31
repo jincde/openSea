@@ -30,8 +30,26 @@
 
 <br>
 
+### 반응형 헤더
+
+![responsive-navbar](README.assets/responsive-navbar.gif)
+
+<br>
+
 ### 스크롤에 따라 바뀌는 헤더영역
 
 ![transition-navbar](README.assets/transition-navbar.gif)
 
 > 현재 윈도우의 top값이 헤더 길이를 넘어가면 흰색으로 변경
+
+<br>
+
+### 헤더 드롭다운
+
+![dropdown](README.assets/dropdown.gif)
+
+<br>
+
+### 탭 메뉴
+
+![tab-menu](README.assets/tab-menu.gif)
