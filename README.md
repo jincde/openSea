@@ -46,6 +46,12 @@
 
 <br>
 
+### 검색창 hover 효과
+
+![search-hover](README.assets/search-hover.gif)
+
+<br>
+
 ### 스크롤에 따라 바뀌는 헤더영역
 
 ![transition-navbar](README.assets/transition-navbar.gif)
