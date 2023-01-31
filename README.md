@@ -53,3 +53,12 @@
 ### 탭 메뉴
 
 ![tab-menu](README.assets/tab-menu.gif)
+
+<br>
+
+### Swiper 반응형
+
+![responsive-swiper](README.assets/responsive-swiper.gif)
+
+> 300px > 600px > 768px > 1024px > 2256px
+
